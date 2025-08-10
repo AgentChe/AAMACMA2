@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE5DBC8F8F9AEBA3CDC33824 /* Pods_AAMACMA2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3853C7D3206AB1B004BE207 /* Pods_AAMACMA2.framework */; };
+		DE54E17E2E48AC460098E759 /* GetFinalTestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE54E17D2E48AC460098E759 /* GetFinalTestRequest.swift */; };
 		DE6F07392DE855A90051A507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6F072D2DE855A90051A507 /* Assets.xcassets */; };
 		DE6F073B2DE855A90051A507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE6F07302DE855A90051A507 /* LaunchScreen.storyboard */; };
 		DE6F07482DE8566C0051A507 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE6F07422DE8566C0051A507 /* Inter-SemiBold.ttf */; };
@@ -352,6 +353,7 @@
 /* Begin PBXFileReference section */
 		029735153A5D5374FBF3EFB2 /* Pods-AAMACMA2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AAMACMA2.debug.xcconfig"; path = "Target Support Files/Pods-AAMACMA2/Pods-AAMACMA2.debug.xcconfig"; sourceTree = "<group>"; };
 		18B5B704C68230C425541F3E /* Pods-AAMACMA2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AAMACMA2.release.xcconfig"; path = "Target Support Files/Pods-AAMACMA2/Pods-AAMACMA2.release.xcconfig"; sourceTree = "<group>"; };
+		DE54E17D2E48AC460098E759 /* GetFinalTestRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFinalTestRequest.swift; sourceTree = "<group>"; };
 		DE6F07142DE855A30051A507 /* AAMACMA2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AAMACMA2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6F072D2DE855A90051A507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE6F072E2DE855A90051A507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1045,9 +1047,9 @@
 			children = (
 				DE6F07992DE856710051A507 /* Models */,
 				DE6F07AA2DE856710051A507 /* Views */,
-				DE6F07AB2DE856710051A507 /* PlanView.swift */,
 				DE6F07AC2DE856710051A507 /* PlanViewController.swift */,
 				DE6F07AD2DE856710051A507 /* PlanViewModel.swift */,
+				DE6F07AB2DE856710051A507 /* PlanView.swift */,
 			);
 			path = Plan;
 			sourceTree = "<group>";
@@ -2039,6 +2041,7 @@
 				DE6F08F52DE856710051A507 /* GetTestRequest.swift */,
 				DE6F08F62DE856710051A507 /* GetTestResponseMapper.swift */,
 				DE6F08F72DE856710051A507 /* QuestionMapper.swift */,
+				DE54E17D2E48AC460098E759 /* GetFinalTestRequest.swift */,
 			);
 			path = GetTest;
 			sourceTree = "<group>";
@@ -2390,6 +2393,7 @@
 				DE6F09772DE856710051A507 /* AVPlayerView.swift in Sources */,
 				DE6F09782DE856710051A507 /* GetSavedTestRequest.swift in Sources */,
 				DE6F09792DE856710051A507 /* SplashViewModel.swift in Sources */,
+				DE54E17E2E48AC460098E759 /* GetFinalTestRequest.swift in Sources */,
 				DE6F097A2DE856710051A507 /* NavigationController.swift in Sources */,
 				DE6F097B2DE856710051A507 /* QuestionViewerView.swift in Sources */,
 				DE6F097C2DE856710051A507 /* PassRateProgress.swift in Sources */,
